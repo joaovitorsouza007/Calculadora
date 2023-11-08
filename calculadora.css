@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url('https://wallpapercave.com/wp/wp2729921.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    position: absolute;
+    top: 2%;
+    font-family: 'PT Serif', serif;
+}
+
+.calculadora{
+    background: url('https://i.pinimg.com/564x/98/ad/5c/98ad5c09633563811932e94146a2ccf0.jpg');
+    border-radius: 4%;
+    padding: 2%;
+}
+
+#resultado{
+    background-color: white;
+    margin: 4% auto;
+    font-size: 1.5rem;
+    color: black;
+    text-align: right;
+    padding: 2%;
+    overflow: hidden;
+    height: 2.2rem;
+    width: 13.7rem;
+}
+
+button{
+    height: 3rem;
+    width: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0.2rem;
+    background-color: aquamarine;
+    border: 3px solid;
+    transition: all .4s;
+    border-bottom: 10px solid;
+    height: 100%;
+}
+
+button:hover{
+    background-color: hotpink;
+}
